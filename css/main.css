@@ -1,0 +1,68 @@
+/*body{
+    background-color: azure;
+    color:rgb(85, 82, 91);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+}*/
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.first{
+    width: 33%;
+    float: left;
+
+
+}
+.second{
+    width: 33%;
+    display: inline-block;
+    
+}
+.third{
+    width: 33%;
+    float: right;
+}
+.center{
+    text-align: center;
+    display: block;
+}
+#main-header{
+    background-color: white;
+    color:gray;
+}
+#navbar{
+  background-color: #333;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline-block;
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#about-me{
+    background-image: url(file:///Users/anton/Desktop/www/images/about-me.jpg);
+    background-position: right;
+}

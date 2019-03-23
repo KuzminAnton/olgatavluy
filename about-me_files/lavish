@@ -1,0 +1,172 @@
+setTimeout(function() {
+
+    var head = document.head || document.getElementsByTagName("head")[0];
+    var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'https://mssg.me/static/widget/css/styles.css?v=2.5.3';
+        head.appendChild(link);
+    var tagline = "lavish.pro";
+    var description = "Easy Way to Hey";
+
+    var mssg_widget = document.createElement("div");
+    mssg_widget.setAttribute("id", "mssgme_widget");
+
+    document.body.appendChild(mssg_widget);
+
+    mssg_widget = document.getElementById("mssgme_widget");
+
+    setTimeout(function(){
+        mssg_widget.innerHTML = "<div id='widget_circle' style='background-color: #F8C76D;left:10px;'><img src='https://mssg.me/static/widget/img/logo_hand.svg' id='widget_logo' style='left:10px;'><img src='https://mssg.me/static/widget/img/icon_close.svg' id='circle_close'></div><div id='widget_popup' class='all' style='left:10px;'></div>";
+
+        
+            var welcome_message_text = "<div></div>";
+        
+
+        var mssg_widget_box_text = "<div id='mssg_widget_box' style='left:10px;'><iframe src='https://mssg.me/lavish?iframe'></iframe></div>";
+        var widget_popup =  document.getElementById("widget_popup");
+        widget_popup.innerHTML += welcome_message_text;
+        mssg_widget.innerHTML += mssg_widget_box_text;
+
+
+        var widget_close = document.getElementById("widget_close");
+        var welcome_message = document.getElementById("welcome_message");
+        var widget_circle = document.getElementById("widget_circle");
+
+        setTimeout(function() {
+
+            
+
+            
+
+            function setCookie(name,value,days) {
+                var expires = "";
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days*24*60*60*1000));
+                    expires = "; expires=" + date.toUTCString();
+                }
+                document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+            }
+
+            function getCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for(var i=0;i < ca.length;i++) {
+                    var c = ca[i];
+                    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+                }
+                return null;
+            }
+
+            
+
+            
+
+            widget_circle.onclick = function(e) {
+                toggleWidget();
+            }
+
+            function close_popup() {
+                var widget_popup =  document.getElementById("widget_popup");
+                widget_popup.style.transform = "translate3d(0,20px,0)";
+                widget_popup.style.opacity = "0";
+                widget_popup.style.pointerEvents  = "none";
+                setTimeout(function() {
+                    widget_popup.style.transform = "translate3d(0,0px,0)";
+                    widget_popup.style.zIndex = "-1";
+                    widget_popup.setAttribute("rel", "");
+                }, 300);
+            }
+
+            function show_popup() {
+                var widget_popup =  document.getElementById("widget_popup");
+                widget_popup.setAttribute("rel", "active");
+                widget_popup.style.transform = "translate3d(0,0px,0)";
+                widget_popup.style.opacity = "1";
+                widget_popup.style.pointerEvents  = "auto";
+                widget_popup.style.zIndex = "100000";
+            }
+
+            function close_widget() {
+                var widget_popup =  document.getElementById("mssg_widget_box");
+                widget_popup.style.transform = "translate3d(0,20px,0)";
+                widget_popup.style.opacity = "0";
+                widget_popup.style.pointerEvents = "none";
+                widget_popup.style.zIndex = "-1";
+                setTimeout(function() {
+                    widget_popup.style.display = "none";
+                }, 300);
+            }
+
+            function show_widget() {
+                var widget_popup =  document.getElementById("mssg_widget_box");
+                widget_popup.style.display = "block";
+                setTimeout(function() {
+                    widget_popup.style.transform = "translate3d(0,0px,0)";
+                    widget_popup.style.opacity = "1";
+                    widget_popup.style.pointerEvents = "auto";
+                    widget_popup.style.zIndex = "100000";
+                }, 300);
+            }
+
+            function popup_status() {
+                if (widget_popup.getAttribute("rel") == "active") {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            function circle_status() {
+                if (widget_circle.getAttribute("rel") == "active") {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            function toggleWidget() {
+                if (!circle_status()) {
+
+                    document.getElementById("widget_logo").style.opacity = "0";
+                    document.getElementById("widget_logo").style.transform = "scale(0.5) rotate(-120deg)";
+
+                    document.getElementById("widget_circle").style.maxWidth = "60px";
+
+                    setTimeout(function() {
+                        document.getElementById("circle_close").style.opacity = "1";
+                        document.getElementById("circle_close").style.transform = "rotate(0deg) scale(1)";
+
+                    }, 300);
+
+                    widget_circle.setAttribute("rel", "active");
+
+                    close_popup();
+
+                    show_widget();
+
+                } else {
+
+                    document.getElementById("circle_close").style.opacity = "0";
+                    document.getElementById("circle_close").style.transform = "rotate(120deg) scale(1)";
+
+                    setTimeout(function() {
+                        document.getElementById("widget_logo").style.opacity = "1";
+                        document.getElementById("widget_logo").style.transform = "scale(1) rotate(0deg)";
+
+                        document.getElementById("widget_circle").style.maxWidth = "220px";
+
+                    }, 300);
+
+                    widget_circle.setAttribute("rel", "");
+                    widget_popup.setAttribute("rel", "active");
+
+                    close_widget();
+
+                }
+            }
+
+        }, 300);
+    }, 100);
+}, 400);
