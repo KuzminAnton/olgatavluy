@@ -19,8 +19,25 @@ body {
     color: black;
     margin: 0;
 }
+.title-else{
+    font-size: 48px;
+    font-family: "Playfair Display";
+    color:white;
+    margin: 0;
+}
 .bullet{
     font-size: 24px;
+}
+.sign{
+    border: 1px solid white;
+    padding: 7px;
+    margin: 10px 0 5px 5px;
+    background: white;
+    text-align: center;
+    display: block;
+}
+.sign figcaption{
+    margin: 0 auto 5px;
 }
 .button-about-me{
     background-color: rgba(0, 0, 0, 0);
@@ -55,13 +72,28 @@ body {
     width: 33%;
     float: right;
 }
+
 .center{
     text-align: center;
     display: block;
 }
+
+
+.photo{
+    margin: 5px;
+}
+
 #main-header{
     background-color: white;
     color:gray;
+}
+#portfolio{
+    text-align: center;
+    background-color: antiquewhite;
+}
+#else{
+    text-align: center;
+    background-color: #333;
 }
 #navbar{
   background-color: #333;
