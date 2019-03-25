@@ -82,6 +82,11 @@ body {
 .photo{
     margin: 5px;
 }
+.list-esle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 #main-header{
     background-color: white;
@@ -100,7 +105,7 @@ body {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: justify;
+  text-align: justify;   
   width: 100%;
 }
 #navbar ul{
@@ -117,7 +122,7 @@ body {
     padding-right: 15px;
 }
 #about-me{
-    background-image: url(file:///Users/anton/Desktop/www/images/about-me.jpg);
+    background-image: url(/images/about-me.jpg);
     background-position: right;
     padding-top: 50px;
     padding-bottom: 50px;
