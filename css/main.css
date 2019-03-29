@@ -24,6 +24,10 @@ input{
     margin-top: 20px;
 
 }
+p{
+    font-family: "Playfair Display";    
+}
+
 .title{
     font-size: 48px;
     font-family: "Playfair Display";
@@ -73,6 +77,8 @@ input{
     width: 33%;
     float: left;
     justify-content: center;
+    color: black;
+    
 }
 .second{
     width: 33%;
@@ -84,6 +90,8 @@ input{
     width: 33%;
     float: right;
     justify-content: center;
+    color: black;
+  
 
 }
 
@@ -118,6 +126,28 @@ input{
     padding-bottom: 30px;
 
 }
+
+.one-comment{
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: white;
+    margin-bottom:20px; 
+
+}
+.one-comment img{
+    width: 150px;
+    border-radius: 75px;
+    margin: 0px 25px 0px 0px;
+    display: block;
+
+}
+.one-comment p{
+    font: normal 18px "ProximaNovaRegular";
+    display: block;
+
+
+}
 #navbar{
   background-color: #333;
   color: #fff;
@@ -131,12 +161,13 @@ input{
     list-style: none;
 }
 #navbar li{
+    font-family: "Playfair Display";
     display: inline-block;
 }
 #navbar a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     padding-right: 15px;
 }
 #main-footer{
@@ -148,13 +179,27 @@ input{
     padding-bottom: 20px;
 }
 #feedback{
-    margin-bottom:50px;
-    margin-top:50px;
+    padding-bottom:20px;
+    text-align: center;
+    background-image: url(http://olgatavluy.ru/images/images/b3-bg.jpg);
+}
+
+#diploma{
+    padding-bottom:20px;
     text-align: center;
 }
+
+
 #about-me{
     background-image: url(http://olgatavluy.ru/images/about-me.jpg);
     background-position: right;
     padding-top: 50px;
     padding-bottom: 50px;
 } 
+#comment{
+    background-color: antiquewhite;
+    padding-bottom:20px;
+    text-align: center;
+
+
+}
