@@ -5,30 +5,37 @@
     <title>Свадебный стилист и визажист</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <script src="main.js"></script>
+    <script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+
+    <script src="lib/jquery.maskedinput.js" type="text/javascript"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
     <header id="main-header">
         <div class="container">
         <h1>
             <span class="center">
-                <span class="first">Свадебный стилист и визажист</span>
-                <span class="second">
+                <div class="e">
+                <div class="first"><p>Свадебный стилист и визажист</p></div>
+                <div class="second">
                     <img src="images/logo.png" alt="logo">
-                </span>
-                <span class="third">+79788188913</span>
+                </div>
+                <div class="third"><p>+79788188913</p></div>
+                </div>
             </span>
         </h1>
         </div> 
     </header>
     <nav id="navbar">
         <div class="container">
+            <div class="e">
             <li><a href="#">Обо мне</a></li>
             <li><a href="#">Портфолио</a></li>
             <li><a href="#">Прочие услуги</a></li>
             <li><a href="#">Мои дипломы</a></li>
             <li><a href="#">Отзывы </a></li>
             <li><a href="#">Контакты</a></li>
+            </div>
         </div>
     </nav>
 
@@ -103,7 +110,7 @@
                          Получить консультацию прямо сейчас   
                     </h1>
                     <div>
-                        <input type="tel" placeholder="Телефон">
+                        <input type="tel" id="phone" placeholder="Телефон" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
                         <input type="text" placeholder="Введите Ваше имя">
                         <button class="button-about-me">Позвоните мне</button>
 

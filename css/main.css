@@ -21,6 +21,7 @@ input{
     font-size: 18px;
     background-color: rgba(0, 0, 0, 0);
     margin-right:20px;
+    margin-top: 20px;
 
 }
 .title{
@@ -71,16 +72,19 @@ input{
 .first{
     width: 33%;
     float: left;
-
+    justify-content: center;
 }
 .second{
     width: 33%;
     display: inline-block;
+    justify-content: center;
     
 }
 .third{
     width: 33%;
     float: right;
+    justify-content: center;
+
 }
 
 .center{
@@ -144,7 +148,8 @@ input{
     padding-bottom: 20px;
 }
 #feedback{
-    margin-bottom: 20px;
+    margin-bottom:50px;
+    margin-top:50px;
     text-align: center;
 }
 #about-me{
