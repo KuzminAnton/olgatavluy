@@ -63,6 +63,8 @@ p{
     padding-right: 50px;
     padding-top: 20px;
     font-size: 18px;
+    margin-top: 10px;
+    
 }
 .button-about-me:hover{
     background-color: rgb(224, 181, 101);
@@ -145,8 +147,14 @@ p{
 .one-comment p{
     font: normal 18px "ProximaNovaRegular";
     display: block;
+}
 
-
+.big {
+    cursor: pointer; 
+    height: 200px;
+}
+.big:hover {
+    height:350px;
 }
 #navbar{
   background-color: #333;
@@ -181,8 +189,12 @@ p{
 #feedback{
     padding-bottom:20px;
     text-align: center;
-    background-image: url(http://olgatavluy.ru/images/images/b3-bg.jpg);
+    background-image: url(http://olgatavluy.ru/images/b3-bg.jpg);
 }
+#feedback input::-webkit-input-placeholder { 
+    color: white; 
+}
+
 
 #diploma{
     padding-bottom:20px;
