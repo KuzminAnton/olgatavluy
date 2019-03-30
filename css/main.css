@@ -189,12 +189,11 @@ p{
 #feedback{
     padding-bottom:20px;
     text-align: center;
-    background-image: url(./images/b3-bg.jpg);
+    background-image: url(http://olgatavluy.ru/images/b3-bg.jpg);
 }
 #feedback input::-webkit-input-placeholder { 
     color: white; 
 }
-
 
 #diploma{
     padding-bottom:20px;
