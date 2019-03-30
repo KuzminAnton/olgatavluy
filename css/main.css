@@ -75,32 +75,6 @@ p{
     margin: auto;
     overflow: hidden;
 }
-.first{
-    width: 33%;
-    float: left;
-    justify-content: center;
-    color: black;
-    
-}
-.second{
-    width: 33%;
-    display: inline-block;
-    justify-content: center;
-    
-}
-.third{
-    width: 33%;
-    float: right;
-    justify-content: center;
-    color: black;
-  
-
-}
-
-.center{
-    text-align: center;
-    display: block;
-}
 
 
 .photo{
@@ -115,6 +89,16 @@ p{
 #main-header{
     background-color: white;
     color:gray;
+
+}
+#main-header p{
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    width: 33%;
+}
+#main-header img{
+   
 }
 #portfolio{
     
