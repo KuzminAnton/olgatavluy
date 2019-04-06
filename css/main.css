@@ -170,7 +170,7 @@ p{
 #feedback{
     padding-bottom:20px;
     text-align: center;
-    background-image: url(http://olgatavluy.ru/images/b3-bg.jpg);
+    background-image: url(http://olgatavluy.ru/images/b3_bg.jpg);
 }
 #feedback input::-webkit-input-placeholder { 
     color: white; 
