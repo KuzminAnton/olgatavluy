@@ -97,9 +97,6 @@ p{
     text-align: center;
     width: 33%;
 }
-#main-header img{
-   
-}
 #portfolio{
     
     text-align: center;
@@ -186,7 +183,7 @@ p{
 
 
 #about-me{
-    background-image: url(http://olgatavluy.ru/images/about-me.jpg);
+    background-image: url(http://olgatavluy.ru/images/about_me.jpg);
     background-position: right;
     padding-top: 50px;
     padding-bottom: 50px;
