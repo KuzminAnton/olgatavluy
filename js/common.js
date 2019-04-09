@@ -5,4 +5,11 @@ jQuery(function($){
     $("#ssn").mask("999-99-9999");
  });
 
+var Form = document.querySelector('#form')
+
+Form.addEventListener('submit', function(e){
+    e.preventDefault()
+    
+    // get input value
+})
     
