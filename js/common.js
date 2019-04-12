@@ -8,7 +8,7 @@ jQuery(function($){
 var Form = document.querySelector('#form')
 
 function handleSubmit(event){
-    event.preventDefault
+    event.preventDefault()
     
     var phone = document.querySelector('#form > input:nth-child(1)').value
     var message = document.querySelector('#form > input:nth-child(2)').value
