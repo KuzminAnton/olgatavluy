@@ -132,10 +132,10 @@ p{
 
 .big {
     cursor: pointer; 
-    height: 200px;
+    height: 350px;
 }
 .big:hover {
-    height:350px;
+    height:550px;
 }
 #navbar{
   background-color: #333;
@@ -170,7 +170,7 @@ p{
 #feedback{
     padding-bottom:20px;
     text-align: center;
-    background-image: url(http://olgatavluy.ru/images/b3_bg.jpg);
+    background-image: url(http://olgatavluy.ru/images/b3-bg.jpg);
 }
 #feedback input::-webkit-input-placeholder { 
     color: white; 
@@ -183,8 +183,9 @@ p{
 
 
 #about-me{
+
     background-image: url(http://olgatavluy.ru/images/about_me.jpg);
-    background-position: right;
+    /* background-position: right; */
     padding-top: 50px;
     padding-bottom: 50px;
 } 
