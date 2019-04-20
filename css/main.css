@@ -31,6 +31,12 @@ p{
 .title{
     font-size: 48px;
     font-family: "Playfair Display";
+    color:black;
+    margin: 0;
+}
+.title-am{
+    font-size: 48px;
+    font-family: "Playfair Display";
     color: white;
     margin: 0;
 }
@@ -181,7 +187,10 @@ p{
     padding-bottom:20px;
     text-align: center;
 }
-
+#contact{
+    padding-bottom:20px;
+    text-align: center;
+}
 
 #about-me{
 

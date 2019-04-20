@@ -28,12 +28,12 @@ function handleSubmit(event){
     if (xhr.readyState !== 4) return
 
     // 4. Если код ответа сервера не 200, то это ошибка
-    if (xhr.status != 200) {
+    if (xhr.status == 200) {
       // обработать ошибку
-      alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
+      alert( "Что-то пошло не так. Попробуйте позже." ); // пример вывода: 404: Not Found
     } else {
       // вывести результат
-      alert( xhr.responseText ); // responseText -- текст ответа.
+      alert( "Спасибо ,что обратились ко мне. В ближайшее время Я Вам перезвоню." ); // responseText -- текст ответа.
     }
   }
 }
