@@ -31,7 +31,7 @@ p{
 .title{
     font-size: 48px;
     font-family: "Playfair Display";
-    color: black;
+    color: white;
     margin: 0;
 }
 .title-else{
@@ -42,6 +42,7 @@ p{
 }
 .bullet{
     font-size: 24px;
+    color: white;
 }
 .sign{
     border: 1px solid white;
@@ -195,4 +196,20 @@ p{
     text-align: center;
 
 
+}
+.first_letter{
+    color: red;
+    size: 20px;
+    font-weight: 600;
+
+
+}
+.other_letter{
+    color: darkblue;
+    font-weight: 600;
+}
+.word{
+    width: 500px;
+    margin: 50px;
+    font-size: 18px;
 }
