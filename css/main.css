@@ -195,8 +195,8 @@ p{
 #about-me{
 
     background-image: url(http://olgatavluy.ru/images/about_me.jpg);
-    background-size: 115%;
-    /* background-position: left; */
+    background-position-x: 90%;
+     /* background-position: left; */
     padding-top: 50px;
     padding-bottom: 50px;
 } 
