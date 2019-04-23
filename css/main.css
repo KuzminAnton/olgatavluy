@@ -82,7 +82,10 @@ p{
     margin: auto;
     overflow: hidden;
 }
-
+.container-diploma{
+    width: 80%;
+    margin: auto;
+}
 
 .photo{
     margin: 5px;
@@ -142,7 +145,10 @@ p{
     height: 350px;
 }
 .big:hover {
-    height:550px;
+    transform: scale(1.5);
+    transition: 0.2s all ease-out;
+    transform-origin: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 #navbar{
   background-color: #333;
