@@ -14,7 +14,7 @@ function handleSubmit(event){
   var phone = document.querySelector('#form > input:nth-child(1)').value
   var message = document.querySelector('#form > input:nth-child(2)').value
 
-  var link = 'https://sms.ru/sms/send?api_id=F3020000-849F-0968-4E1D-E08B296F0114&to=79781302164&msg=' + phone + message + '&json=1'
+  var link = 'https://sms.ru/sms/send?api_id=B26B4BBF-0912-2796-7F9B-59A059817CB4&to=79781302164&msg=' + phone + message + '&json=1'
   // 1. Создаём новый объект XMLHttpRequest
   var xhr = new XMLHttpRequest();
 
