@@ -80,7 +80,7 @@ p{
 .container{
     width: 80%;
     margin: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .container-diploma{
     width: 80%;

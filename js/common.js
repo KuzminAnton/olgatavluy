@@ -1,3 +1,30 @@
+$(document).ready(function(){
+  $('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 2000,
+  });
+});
+$(document).ready(function(){
+
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
+});
+
 jQuery(function($){
     $("#date").mask("99/99/9999");
     $("#phone").mask("(999) 999-9999");
@@ -8,13 +35,13 @@ jQuery(function($){
 var Form = document.querySelector('#form')
 Form.addEventListener('submit', handleSubmit)
 
+
 function handleSubmit(event){
   event.preventDefault()
   
   var phone = document.querySelector('#form > input:nth-child(1)').value
   var message = document.querySelector('#form > input:nth-child(2)').value
-
-  var link = 'https://sms.ru/sms/send?api_id=B26B4BBF-0912-2796-7F9B-59A059817CB4&to=79781302164&msg=' + phone + message + '&json=1'
+  var link = 'https://sms.ru/sms/send?api_id=B24D65B18-B032-B62D-594E-1F7BBC7FF7D7&to=79788188913&msg=' + phone + message + '&json=1'
   // 1. Создаём новый объект XMLHttpRequest
   var xhr = new XMLHttpRequest();
 

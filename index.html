@@ -8,7 +8,14 @@
     <script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
     <link rel="icon" type="image/png" sizes="192x192"  href="image/favicon/android-icon-144x144.png">
 
+    <!-- Add the slick-theme.css if you want default styling -->    
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+
     <script src="lib/jquery.maskedinput.js" type="text/javascript"></script>
+
+
 </head>
 <body>
         <header id="main-header">
@@ -56,13 +63,21 @@
             <div class="container">
                 <p class="title" id="porfolio">Портфолио</p>
                 <p class="title" id="porfolio">Мои невесты</p>
-                <div class="e">
+                <div class="autoplay" class="e" id="slider">
                     <img class="photo" src="./image/new/bride2.jpg" height="450px">
                     <img class="photo" src="./image/new/bride3.jpg" height="450px">
                     <img class="photo" src="./image/new/bride1.jpg" height="450px">
+                    <img class="photo" src="./image/new/bride1.jpg" height="450px">
+                    <img class="photo" src="./image/new/bride1.jpg" height="450px">
+                    <img class="photo" src="./image/new/bride1.jpg" height="450px">
+
                 </div>
+            
                 <p class="title" id="porfolio">Вечерние образы и для фото</p>
-                <div class="e">
+                <div class="autoplay" class="e" id="slider">
+                    <img class="photo" src="./image/new/obr1.jpg" height="450px">
+                    <img class="photo" src="./image/new/obr2.jpg" height="450px">
+                    <img class="photo" src="./image/new/obr3.jpg" height="450px">
                     <img class="photo" src="./image/new/obr1.jpg" height="450px">
                     <img class="photo" src="./image/new/obr2.jpg" height="450px">
                     <img class="photo" src="./image/new/obr3.jpg" height="450px">
@@ -73,7 +88,19 @@
         <section id="else">
                 <div class="container">
                     <p class="title-else" id="porfolio">Прочие услуги</p>
-                    <div class="e">
+                    <div class="autoplay" class="e" id="slider">
+                        <figure class="sign">
+                            <img class="photo" src="./image/new/obr4.jpg" width="300px">
+                            <figcaption>ЛАМИНИРОВАНИЕ РЕСНИЦ</figcaption>
+                        </figure>
+                        <figure class="sign">
+                            <img class="photo" src="./image/new/obr5.jpg" width="300px">
+                            <figcaption>ОКРАШИВАНИЕ БРОВЕЙ ХНОЙ И КРАСКОЙ</figcaption>
+                        </figure>
+                        <figure class="sign">
+                            <img class="photo" src="./image/new/obr6.jpg" width="300px">
+                            <figcaption>ОКРАШИВАНИЕ РЕСНИЦ</figcaption>
+                        </figure>
                         <figure class="sign">
                             <img class="photo" src="./image/new/obr4.jpg" width="300px">
                             <figcaption>ЛАМИНИРОВАНИЕ РЕСНИЦ</figcaption>
@@ -162,6 +189,8 @@
         <p> Copyright &copy; 2019 Anton Kuzmin</p>
     </footer>
     <script src="js/common.js"></script>
-<!-- <script src="https://mssg.me/widget/syltan.89" async></script> -->
+  
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
 </body>
 </html>
