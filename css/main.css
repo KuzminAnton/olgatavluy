@@ -1,13 +1,33 @@
-/*body{
-    background-color: azure;
-    color:rgb(85, 82, 91);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.5em;
-    margin: 0;
-}*/
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.eot');
+    src: local('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular'),
+        url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.woff') format('woff'),
+        url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFChampion Script Pro';
+    src: url('file:///Users/anton/Desktop/www/css/fonts/PFChampionScriptPro.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{ 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+.logo{
+  font-family: "PFChampion Script Pro";
+  font-size: 42px;
+  color: MidnightBlue;
+
+}
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "PF BeauSans Pro",Helvetica,Arial,sans-serif;
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -25,24 +45,32 @@ input{
 
 }
 p{
-    font-family: "Playfair Display";    
+    font-family: "PF BeauSans Pro";    
 }
 
 .title{
     font-size: 48px;
-    font-family: "Playfair Display";
+    font-family: "PF BeauSans Pro";
     color:black;
     margin: 0;
 }
+.title-my-bride{
+    font-size: 48px;
+    font-family: "PF BeauSans Pro";
+    color:black;
+    background-color: LightSteelBlue;
+    margin: 0;
+    width: initial;
+}
 .title-am{
     font-size: 48px;
-    font-family: "Playfair Display";
+    font-family: "PF BeauSans Pro";
     color: white;
     margin: 0;
 }
 .title-else{
     font-size: 48px;
-    font-family: "Playfair Display";
+    font-family: "PF BeauSans Pro";
     color:white;
     margin: 0;
 }
@@ -95,27 +123,27 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+.text-main-header{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    width: 33%;
+}
 #main-header{
     background-color: white;
     color:gray;
 
 }
-#main-header p{
-    font-size: 32px;
-    color: black;
-    text-align: center;
-    width: 33%;
-}
+
 #portfolio{
     
     text-align: center;
-    background-color: antiquewhite;
+    border-color:LightCyan;
     padding-bottom: 30px;
 }
 #else{
     text-align: center;
-    background-color: #333;
+    border-color:LightCyan;
     padding-bottom: 30px;
 
 }
@@ -136,7 +164,7 @@ p{
 
 }
 .one-comment p{
-    font: normal 18px "ProximaNovaRegular";
+    font: normal 18px "PF BeauSans Pro";
     display: block;
 }
 
@@ -151,7 +179,7 @@ p{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 #navbar{
-  background-color: #333;
+  background-color:LightSteelBlue;
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -163,11 +191,11 @@ p{
     list-style: none;
 }
 #navbar li{
-    font-family: "Playfair Display";
+    font-family: "PF BeauSans Pro";
     display: inline-block;
 }
 #navbar a{
-    color: #fff;
+    color:black;
     text-decoration: none;
     font-size: 24px;
     padding-right: 15px;
@@ -207,7 +235,7 @@ p{
     padding-bottom: 50px;
 } 
 #comment{
-    background-color: antiquewhite;
+    border-color:LightCyan;
     padding-bottom:20px;
     text-align: center;
 
