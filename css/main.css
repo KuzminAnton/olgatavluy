@@ -47,7 +47,9 @@ input{
 p{
     font-family: "PF BeauSans Pro";    
 }
-
+#form{
+  height: 160px;
+}
 .title{
     font-size: 48px;
     font-family: "PF BeauSans Pro";
@@ -55,12 +57,16 @@ p{
     margin: 0;
 }
 .title-my-bride{
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 48px;
     font-family: "PF BeauSans Pro";
     color:black;
     background-color: LightSteelBlue;
     margin: 0;
-    width: initial;
+    /* width: initial; */
+    margin-bottom: 20px;
+
 }
 .title-am{
     font-size: 48px;
@@ -209,7 +215,10 @@ p{
     padding-bottom: 20px;
 }
 #feedback{
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-bottom:20px;
+    padding-top: 60px;
     text-align: center;
     background-image: url(http://olgatavluy.ru/images/b3-bg.jpg);
 }
