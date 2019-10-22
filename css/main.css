@@ -116,6 +116,13 @@ p{
     margin: auto;
     /* overflow: hidden; */
 }
+
+.container-left{
+    width: 80%;
+    margin: auto;
+    text-align-last: left;
+    /* overflow: hidden; */
+}
 .container-diploma{
     width: 80%;
     margin: auto;
@@ -148,6 +155,7 @@ p{
     padding-bottom: 30px;
 }
 #else{
+    font-size: 24px;
     text-align: center;
     border-color:LightCyan;
     padding-bottom: 30px;
