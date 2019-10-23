@@ -33,12 +33,14 @@ a{
   font-family: "PFChampion Script Pro";
   font-size: 42px;
   color: MidnightBlue;
+  margin-bottom: 0px;
 
 }
 .logo2{
     font-family: "Whitney Book";
-    font-size: 42px;
+    font-size: 16px;
     color: MidnightBlue;
+    margin-top: 0px;
   
   }
 body {
@@ -152,7 +154,15 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.text-main-header{
+.text-main-header1{
+    margin-top: 50px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    width: 33%;
+}
+.text-main-header2{
+    margin-top: 50px;
     font-size: 24px;
     color: black;
     text-align: center;
