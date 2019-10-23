@@ -16,6 +16,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Whitney Book';
+    src: url('http://olgatavluy.ru/css/fonts/Whitney-Book.eot');
+    src: url('http://olgatavluy.ru/css/fonts/Whitney-Book.eot?#iefix') format('embedded-opentype'),
+    url('http://olgatavluy.ru/css/fonts/Whitney-Book.woff') format('woff'),
+    url('http://olgatavluy.ru/css/fonts/Whitney-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 a{ 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
    }
@@ -25,6 +35,12 @@ a{
   color: MidnightBlue;
 
 }
+.logo2{
+    font-family: "Whitney Book";
+    font-size: 42px;
+    color: MidnightBlue;
+  
+  }
 body {
     font-family: "PF BeauSans Pro",Helvetica,Arial,sans-serif;
     /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
@@ -229,6 +245,7 @@ p{
     padding-top: 60px;
     text-align: center;
     background-image: url(http://olgatavluy.ru/image/new/bride4.jpg);
+    
 }
 #feedback input::-webkit-input-placeholder { 
     color: white; 
