@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: 'PF BeauSans Pro';
-    src: url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.eot');
-    src: local('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular'),
-        url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.woff') format('woff'),
-        url('file:///Users/anton/Desktop/www/css/fonts/PFBeauSansPro-Regular.ttf') format('truetype');
+    src: url('http://olgatavluy.ru/css/fonts/PFBeauSansPro-Regular.eot');
+    src: local('http://olgatavluy.ru/css/fonts/PFBeauSansPro-Regular'),
+        url('http://olgatavluy.ru/css/fonts/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('http://olgatavluy.ru/css/fonts/PFBeauSansPro-Regular.woff') format('woff'),
+        url('http://olgatavluy.ru/css/fonts/PFBeauSansPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'PFChampion Script Pro';
-    src: url('file:///Users/anton/Desktop/www/css/fonts/PFChampionScriptPro.ttf');
+    src: url('http://olgatavluy.ru/css/fonts/PFChampionScriptPro.ttf');
     font-weight: normal;
     font-style: normal;
 }
